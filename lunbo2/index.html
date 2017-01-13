@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+
+	</head>
+	<body>
+		<div id="banner"></div>	
+		<script src="js/a.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			var options = {};
+			options.myDiv = document.getElementById("banner");
+			var imgs = ["img/1.jpeg","img/2.jpeg","img/3.jpeg","img/4.jpeg"];
+			options.imgs = imgs;
+			options.hrefs= ["#","#","#","#"];
+			options.height = "440";
+			var slider = new Slider(options);
+			
+		</script>
+	</body>
+</html>

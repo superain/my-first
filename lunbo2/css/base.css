@@ -1,0 +1,23 @@
+/*-----------------------------全局样式-------------------------------------*/
+@charset "utf-8"; 
+body, div, address, blockquote, iframe, ul, ol, dl, dt, dd, li, dl, h1, h2, h3, h4, h5, h6, p, pre, table, caption, th, td, form, legend, fieldset, input, button, select, textarea {margin:0; padding:0; border:0;}
+body{ font-weight: normal;font-style: normal;font-size:12px;font-family: "微软雅黑", Arial, Tahoma; background:#fff; }
+img {border: 0;} 
+a img,img {border: 0;vertical-align: middle;}
+a {text-decoration: none; color:#333}
+a:hover {color:#ff8800}
+a:focus {outline-style: none;}
+a,area {blr: expression(this.onFocus = this.blur () );}/*按下鼠标图片周边不会出现虚线，这个适合所有的浏览器*/
+ul li {list-style: none;}
+table {border-collapse: collapse;}
+th {white-space:nowrap; font-weight:bold}
+td {word-break:break-all;}
+input,select,textarea,button{vertical-align: middle;font-family:"微软雅黑"; background:none;}
+input,select{ height:24px;}
+span{color: #ccc;}
+.orange{color:#ff8800!important;}
+.left{float: left;}
+.right{float: right;}
+.clearfix:after{content: "";clear:both;display: block; height: 0; visibility: hidden;}
+.clearfix{zoom:1;}
+.form input{float: left;}
