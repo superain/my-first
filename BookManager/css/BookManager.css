@@ -1,0 +1,67 @@
+.box{
+	width: 100%;
+	height: 700px;
+	background: aqua;
+	position: relative;
+}
+.form1{
+	width: 400px;
+	height: 300px;
+	background: tomato;
+	position: absolute;
+	position: relative;
+	left: 40%;
+	top: 40%;
+}
+.title{
+	font-size: 18px;
+	padding-left: 100px;
+	font-weight: bold;
+	position: absolute;
+	top: 30px;
+	
+}
+.users{
+	left: 40px;
+	position: absolute;
+	top: 90px;
+}
+#admin{
+	left: 100px;
+	top: 90px;
+	position: absolute;
+	width: 190px;
+}
+.users1{
+	left: 40px;
+	top: 130px;
+	position: absolute;
+}
+#mima{
+	left: 100px;
+	top: 130px;
+	position: absolute;
+	width: 190px;
+}
+.login{
+	left: 120px;
+	top: 180px;
+	width: 50px;
+	height: 20px;
+	position: absolute;
+	border: 1px solid orange;
+	background: greenyellow;
+	text-align: center;
+	border-radius: 5px;
+}
+.cancel{
+	left: 200px;
+	top: 180px;
+	width: 50px;
+	height: 20px;
+	position: absolute;
+	border: 1px solid orange;
+	background: greenyellow;
+	text-align: center;
+	border-radius: 5px;
+}
